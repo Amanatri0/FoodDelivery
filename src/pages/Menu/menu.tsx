@@ -4,7 +4,7 @@ import { categories } from "../../categories/categories";
 export default function MenuSection() {
   return (
     <div
-      className="flex gap-6 overflow-x-auto p-4 items-center justify-center scrollbar-hide hover:overflow-x-scroll"
+      className="flex gap-15 overflow-x-auto p-4 items-center justify-center scrollbar-hide hover:overflow-x-scroll"
       style={{
         scrollBehavior: "smooth",
         scrollSnapType: "x mandatory",

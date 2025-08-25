@@ -1,13 +1,21 @@
 import chicken1 from "../../../public/chicken1.png";
 import chicken2 from "../../../public/chicken2.png";
 import chicken3 from "../../../public/chicken3.png";
+import chickenboneless from "../../../public/chickenboneless.jpg";
 import goat1 from "../../../public/goat1.png";
 import goat2 from "../../../public/goat2.png";
+import mutton from "../../../public/mutonRaw.jpg";
+import muttonKeema from "../../../public/mutton_keema.jpg";
+import muttonliver from "../../../public/muttonliver.jpg";
 import fish1 from "../../../public/fish1.png";
 import fish2 from "../../../public/fish2.png";
 import fish3 from "../../../public/fish3.png";
 import fish4 from "../../../public/fish4.jpg";
 import fish5 from "../../../public/fish5.jpg";
+import oyester from "../../../public/oyster.webp";
+import octupus from "../../../public/Octupus.webp";
+import lobster from "../../../public/lobster.jpeg";
+import squid from "../../../public/squid.jpeg";
 
 export const items = [
   {
@@ -183,7 +191,7 @@ export const fishMenu = [
   {
     id: 5,
     name: "Prawns",
-    image: fish5,
+    image: fish1,
     price: 400,
     price2: 600,
     oldPrice: 900,
@@ -192,7 +200,7 @@ export const fishMenu = [
     bgColor: "#f5c6ea",
   },
   {
-    id: 5,
+    id: 6,
     name: "Prawns",
     image: fish5,
     price: 400,
@@ -203,9 +211,9 @@ export const fishMenu = [
     bgColor: "#f5c6ea",
   },
   {
-    id: 5,
+    id: 7,
     name: "Prawns",
-    image: fish5,
+    image: fish2,
     price: 400,
     price2: 600,
     oldPrice: 900,
@@ -217,8 +225,8 @@ export const fishMenu = [
 export const chickenMenu = [
   {
     id: 1,
-    name: "Bhangun Fish",
-    image: fish1,
+    name: "Chicken",
+    image: chicken1,
     price: 230,
     price2: 500,
     oldPrice: 400,
@@ -228,8 +236,8 @@ export const chickenMenu = [
   },
   {
     id: 2,
-    name: "Bhokua",
-    image: fish2,
+    name: "Chicken Boneless",
+    image: chickenboneless,
     price: 910,
     price2: 1200,
     oldPrice: 1500,
@@ -239,8 +247,8 @@ export const chickenMenu = [
   },
   {
     id: 3,
-    name: "Common Carp",
-    image: fish3,
+    name: "Full Chicken",
+    image: chicken2,
     price: 230,
     price2: 500,
     oldPrice: 400,
@@ -250,8 +258,8 @@ export const chickenMenu = [
   },
   {
     id: 4,
-    name: "Rohu",
-    image: fish4,
+    name: "Chicken bone",
+    image: chicken3,
     price: 230,
     price2: 500,
     oldPrice: 400,
@@ -271,20 +279,9 @@ export const chickenMenu = [
     bgColor: "#f5c6ea",
   },
   {
-    id: 5,
-    name: "Prawns",
-    image: fish5,
-    price: 400,
-    price2: 600,
-    oldPrice: 900,
-    weights: ["1kg", "0.5kg"],
-    defaultWeight: "1kg",
-    bgColor: "#f5c6ea",
-  },
-  {
-    id: 5,
-    name: "Prawns",
-    image: fish5,
+    id: 6,
+    name: "Chicken liver",
+    image: muttonliver,
     price: 400,
     price2: 600,
     oldPrice: 900,
@@ -296,8 +293,8 @@ export const chickenMenu = [
 export const muttonMenu = [
   {
     id: 1,
-    name: "Bhangun Fish",
-    image: fish1,
+    name: "Mutton",
+    image: mutton,
     price: 230,
     price2: 500,
     oldPrice: 400,
@@ -307,8 +304,8 @@ export const muttonMenu = [
   },
   {
     id: 2,
-    name: "Bhokua",
-    image: fish2,
+    name: "Mutton Bone",
+    image: goat1,
     price: 910,
     price2: 1200,
     oldPrice: 1500,
@@ -318,8 +315,8 @@ export const muttonMenu = [
   },
   {
     id: 3,
-    name: "Common Carp",
-    image: fish3,
+    name: "Mutton keema",
+    image: muttonKeema,
     price: 230,
     price2: 500,
     oldPrice: 400,
@@ -329,8 +326,8 @@ export const muttonMenu = [
   },
   {
     id: 4,
-    name: "Rohu",
-    image: fish4,
+    name: "Mutton ",
+    image: goat2,
     price: 230,
     price2: 500,
     oldPrice: 400,
@@ -340,43 +337,32 @@ export const muttonMenu = [
   },
   {
     id: 5,
-    name: "Prawns",
-    image: fish5,
-    price: 400,
-    price2: 600,
-    oldPrice: 900,
+    name: "Mutton liver",
+    image: muttonliver,
+    price: 230,
+    price2: 500,
+    oldPrice: 400,
     weights: ["1kg", "0.5kg"],
     defaultWeight: "1kg",
-    bgColor: "#f5c6ea",
+    bgColor: "#D7F5E9",
   },
   {
-    id: 5,
-    name: "Prawns",
-    image: fish5,
-    price: 400,
-    price2: 600,
-    oldPrice: 900,
+    id: 6,
+    name: "Mutton",
+    image: mutton,
+    price: 230,
+    price2: 500,
+    oldPrice: 400,
     weights: ["1kg", "0.5kg"],
     defaultWeight: "1kg",
-    bgColor: "#f5c6ea",
-  },
-  {
-    id: 5,
-    name: "Prawns",
-    image: fish5,
-    price: 400,
-    price2: 600,
-    oldPrice: 900,
-    weights: ["1kg", "0.5kg"],
-    defaultWeight: "1kg",
-    bgColor: "#f5c6ea",
+    bgColor: "#F2E4FA",
   },
 ];
 export const seafoodMenu = [
   {
     id: 1,
-    name: "Bhangun Fish",
-    image: fish1,
+    name: "Oyester",
+    image: oyester,
     price: 230,
     price2: 500,
     oldPrice: 400,
@@ -386,8 +372,8 @@ export const seafoodMenu = [
   },
   {
     id: 2,
-    name: "Bhokua",
-    image: fish2,
+    name: "Lobster",
+    image: lobster,
     price: 910,
     price2: 1200,
     oldPrice: 1500,
@@ -397,8 +383,8 @@ export const seafoodMenu = [
   },
   {
     id: 3,
-    name: "Common Carp",
-    image: fish3,
+    name: "Octupus",
+    image: octupus,
     price: 230,
     price2: 500,
     oldPrice: 400,
@@ -408,8 +394,8 @@ export const seafoodMenu = [
   },
   {
     id: 4,
-    name: "Rohu",
-    image: fish4,
+    name: "Squid",
+    image: squid,
     price: 230,
     price2: 500,
     oldPrice: 400,
@@ -429,25 +415,14 @@ export const seafoodMenu = [
     bgColor: "#f5c6ea",
   },
   {
-    id: 5,
-    name: "Prawns",
-    image: fish5,
-    price: 400,
-    price2: 600,
-    oldPrice: 900,
+    id: 6,
+    name: "Fish",
+    image: fish2,
+    price: 910,
+    price2: 1200,
+    oldPrice: 1500,
     weights: ["1kg", "0.5kg"],
     defaultWeight: "1kg",
-    bgColor: "#f5c6ea",
-  },
-  {
-    id: 5,
-    name: "Prawns",
-    image: fish5,
-    price: 400,
-    price2: 600,
-    oldPrice: 900,
-    weights: ["1kg", "0.5kg"],
-    defaultWeight: "1kg",
-    bgColor: "#f5c6ea",
+    bgColor: "#C9EEFF",
   },
 ];
